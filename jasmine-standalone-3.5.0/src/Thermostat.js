@@ -20,3 +20,18 @@ Thermostat.prototype.switchMode = function() {
     this.powerSavingMode === true ? this.MAXIMUM_TEMPERATURE = 25 :
     this.MAXIMUM_TEMPERATURE = 32;
 };
+
+Thermostat.prototype.reset = function() {
+    this.temperature = 20;
+};
+
+Thermostat.prototype.usageMode = function() {
+    if (this.temperature < 18){
+        return "low-usage";
+    } else if (this.temperature > 25) {
+        return "high-usage";
+    } else {
+        return "medium-usage";
+    }
+
+};
