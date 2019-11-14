@@ -1,8 +1,11 @@
 $(document).ready(function() {
     var thermostat = new Thermostat();
+
     function updateTemperature() {
         $('#temperature').text(thermostat.getTemp());
-    }   
+        $('#temperature').attr('class', thermostat.usageMode());
+    } 
+
     updateTemperature();
     $('#temperature-up').on('click', function() {
         thermostat.temperatureRaise(1);
@@ -18,12 +21,12 @@ $(document).ready(function() {
     })
     $('#powersaveon').on('click', function() {
         thermostat.PSMOn();
-        $('#power-saving-status').text('on')
+        $('#power-saving-status').text('on!!!')
         updateTemperature();
     })
     $('#powersaveoff').on('click', function() {
         thermostat.PSMOff();
-        $('#power-saving-status').text('off')
+        $('#power-saving-status').text('off!!!')
         updateTemperature();
     })
 })
