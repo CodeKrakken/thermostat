@@ -38,17 +38,16 @@ $(document).ready(function() {
         thermostat.reset();
         updateTemperature();
     })
-    $('#powersaveon').on('click', function() {
+    $('#powersave').on('click', function() {
         basicScratch();
+        if (thermostat.powerSavingMode === true) {
+           thermostat.PSMOff();
+           $('#power-saving-status').text('off!!!');
+        } else {
         thermostat.PSMOn();
-        $('#power-saving-status').text('on!!!')
+        $('#power-saving-status').text('on!!!');}
         updateTemperature();
     })
-    $('#powersaveoff').on('click', function() {
-        basicScratch();
-        thermostat.PSMOff();
-        $('#power-saving-status').text('off!!!')
-        updateTemperature();
-    })
+    
 
 })
