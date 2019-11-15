@@ -5,6 +5,12 @@
     <title>Timperature Control</title>
   </head>
   <body>
+       <audio id="basicScratch">
+         <source src="audio/basicScratch.wav" type="audio/mpeg">
+       </audio>
+       <audio id="resetScratch">
+         <source src="audio/resetScratch.wav" type="audio/mpeg">
+       </audio>
        <h1 id="temperature"></h1>
        <button id="temperature-up">+</button>
        <button id="temperature-down">-</button>
@@ -16,7 +22,7 @@
        Power Saving Mode is <span id="power-saving-status">on!!!</span>
        <br>
        <br>
-       <img src="jasmine-standalone-3.5.0/src/Tim-Westwood.jpg" alt="Bling" height="325" width="480"> 
+       <img src="jasmine-standalone-3.5.0/src/Tim-Westwood.jpg" title="Wicked!" height="325" width="480"> 
      <script src="jasmine-standalone-3.5.0/src/thermostat.js"></script>
      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
      <script src="jasmine-standalone-3.5.0/src/interface.js"></script>
