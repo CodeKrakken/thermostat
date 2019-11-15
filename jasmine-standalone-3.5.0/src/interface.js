@@ -14,11 +14,19 @@ $(document).ready(function() {
         $('audio#resetScratch')[0].play();
     }
 
+    function thresholdScratch() { 
+        $('audio#thresholdScratch')[0].play();
+    }
+
     updateTemperature();
     $('#temperature-up').on('click', function() {
-        basicScratch();
+        if (thermostat.temperature === thermostat.MAXIMUM_TEMPERATURE) {
+            thresholdScratch(); 
+            } else { 
+            basicScratch();
         thermostat.temperatureRaise(1);
-        updateTemperature();
+        updateTemperature(); 
+            }           
     })
     $('#temperature-down').on('click', function() {
         basicScratch();
