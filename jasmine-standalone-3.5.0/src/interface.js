@@ -17,7 +17,7 @@ $(document).ready(function() {
     function thresholdScratch() { 
         $('audio#thresholdScratch')[0].play();
     }
-
+    basicScratch();
     updateTemperature();
     $('#temperature-up').on('click', function() {
         if (thermostat.temperature === thermostat.MAXIMUM_TEMPERATURE) {
