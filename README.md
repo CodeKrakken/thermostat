@@ -1,6 +1,6 @@
-# thermostat
+# Thermostat
 
-Makers Challenge. Tackled in alternating pairs with various colleagues.
+Makers Academy Challenge, tackled in alternating pairs with various colleagues.
 
 Specification:
 
