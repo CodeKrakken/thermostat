@@ -21,7 +21,6 @@ Makers Academy Challenge, tackled in alternating pairs with various colleagues. 
 
 ## Usage
 
-```
-git clone https://github.com/CodeKrakken/thermostat
-```
-open `index.html` in your browser.
+
+* `git clone https://github.com/CodeKrakken/thermostat`
+* open `index.html` in your browser.
