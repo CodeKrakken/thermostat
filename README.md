@@ -19,8 +19,7 @@ Makers Academy Challenge, tackled in alternating pairs with various colleagues. 
 * Makes API call to obtain weather information
 * Built by Test Driven Development with Jasmine
 
-## Usage
-
+## Installation
 
 * `git clone https://github.com/CodeKrakken/thermostat`
 * open `index.html` in your browser.
