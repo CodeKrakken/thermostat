@@ -2,7 +2,7 @@
 
 Makers Academy Challenge, tackled in alternating pairs with various colleagues. See also my later solo attempt [here](http://github.com/CodeKrakken/thermostat-2)
 
-Specification:
+## Specification
 
 * Thermostat starts at 20 degrees
 * You can increase the temperature with an up function
@@ -18,3 +18,10 @@ Specification:
 * Dynamic interface powered by jQuery
 * Makes API call to obtain weather information
 * Built by Test Driven Development with Jasmine
+
+## Usage
+
+```
+git clone https://github.com/CodeKrakken/thermostat
+```
+open `index.html` in your browser.
