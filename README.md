@@ -1,6 +1,6 @@
 # Thermostat
 
-Makers Academy Challenge, tackled in alternating pairs with various colleagues.
+Makers Academy Challenge, tackled in alternating pairs with various colleagues. See also my later solo attempt [here](http://github.com/CodeKrakken/thermostat-2)
 
 Specification:
 
